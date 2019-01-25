@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    background: rgba(147,206,222,1);
+background: -moz-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(135deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color:rgb(0, 0, 138);
+    text-align: center;
+    font-size: 25px;
+}
+h3{
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-bottom: -15px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+h4{
+    padding-left:15px;
+    margin-bottom:-20px;
+}
+p.desc{
+    
+    padding-left: 15px;
+}
+p.size12{
+    font-size:12px;
+    padding-left: 15px;
+    margin-top: 22px;
+}
+hr{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom:2px solid;
+}
+hr.cGray{
+    border-bottom:1px solid;
+    border-color:gray;
+}
+hr.cGreen{
+
+   border-color:green; 
+   
+}
+hr.cGold{
+    border-color: rgb(236, 207, 41);
+}
+hr.cBlue{
+    border-color:darkblue;
+}
+.columna{
+    background-color: #f1f1f1;
+    border: 1px solid #333;
+    margin:10px;
+    border-radius:5px;
+    box-shadow: -3px 2px 5px #888;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+.contenedor{
+    margin: 0 auto;
+    width:90%
+}
+@media (min-width:520px){
+.flex{
+    display:flex;
+}
+}
+.icon{
+    margin-right: 5px;
+    color:rgb(0, 56, 139);
+}
+.caracteristicas p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    
+    margin-left:20px;
+    margin-right:20px;
+
+}
+.caracteristicas p:last-of-type{
+    border: none;
+    padding-bottom:40px;
+}
+.button{
+    color:#000;
+    font-size:15px;
+    font-weight: bold;
+    display: block;
+    padding: 3px 0;
+    text-align: center;
+    background-color: lightgray;
+    text-decoration: none;
+    margin: auto 18px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 2px gray;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: darkgray;
+    box-shadow: 0 3px 3px gray;
+}
+
+.button.especial{
+    background-color: goldenrod;
+}
+.button.especial:hover{
+    background-color:rgb(163, 120, 12);
+}
+
+div.bottom{
+    position:absolute;
+    width:100%;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0,0,0,0.2);
+    margin-bottom:0;
+    margin-top:15px;
+    padding:5px;
+}
